@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD083EFF1F8F6DE000946652 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AD083EFE1F8F6DDD00946652 /* Inceptionv3.mlmodel */; };
 		AD5329121F02816300ACFF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5329111F02816300ACFF54 /* AppDelegate.swift */; };
 		AD5329141F02816300ACFF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5329131F02816300ACFF54 /* ViewController.swift */; };
 		AD5329171F02816300ACFF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5329151F02816300ACFF54 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD083EFE1F8F6DDD00946652 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		AD53290E1F02816300ACFF54 /* SeeFood-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeeFood-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5329111F02816300ACFF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5329131F02816300ACFF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,11 +59,20 @@
 				AD5329111F02816300ACFF54 /* AppDelegate.swift */,
 				AD5329131F02816300ACFF54 /* ViewController.swift */,
 				AD5329151F02816300ACFF54 /* Main.storyboard */,
-				AD5329181F02816300ACFF54 /* Assets.xcassets */,
-				AD53291A1F02816300ACFF54 /* LaunchScreen.storyboard */,
 				AD53291D1F02816300ACFF54 /* Info.plist */,
+				AD5329231F02833400ACFF54 /* Resources */,
 			);
 			path = "SeeFood-CoreML";
+			sourceTree = "<group>";
+		};
+		AD5329231F02833400ACFF54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD083EFE1F8F6DDD00946652 /* Inceptionv3.mlmodel */,
+				AD5329181F02816300ACFF54 /* Assets.xcassets */,
+				AD53291A1F02816300ACFF54 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5329141F02816300ACFF54 /* ViewController.swift in Sources */,
+				AD083EFF1F8F6DE000946652 /* Inceptionv3.mlmodel in Sources */,
 				AD5329121F02816300ACFF54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = S4VKESQ2NQ;
 				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.SeeFood-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.sullivanapps.SeeFood-CoreML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -283,10 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = S4VKESQ2NQ;
 				INFOPLIST_FILE = "SeeFood-CoreML/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.SeeFood-CoreML";
+				PRODUCT_BUNDLE_IDENTIFIER = "nz.co.sullivanapps.SeeFood-CoreML";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +324,7 @@
 				AD5329221F02816300ACFF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
